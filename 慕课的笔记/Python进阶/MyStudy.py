@@ -256,28 +256,66 @@ with file_open('bobby.txt') as f_opened:
 # append是直接相加，不是迭代相加。会把列表直接加进去  [1,2,3,[1,2]]
 
 # 切片  [start:end:step]
-
+import numbers
 class Group():
 
     def __init__(self, group_name, company_name, staffs):
         self.group_name = group_name
         self.company_name = company_name
-        self.staffs = staffs
+        self.staffs = staffs  # 这个是列表
 
     def __reversed__(self):
-        pass
+        self.staffs.reversed()
 
     def __getitem__(self, item):
-        return self.staffs[item ]
+        cls = type(self)
+        if isinstance(item,slice):
+            return cls(group_name=self.group_name,company=self.company_name,staffs=self.staffs[item])
+        elif isinstance(item,numbers.Integral):
+            return cls(group_name=self.group_name,company=self.company_name,staffs=[self.staffs[item]])
 
+        # return self.staffs[item ]
     def __len__(self):
-        pass
+        return len(self.staffs)
 
     def __iter__(self):
-        pass
+        return iter(self.staffs)
 
     def __contains__(self, item):
-        pass
+        if item in self.staffs:
+            return True
+        else:
+            return False
+
+import bisect
+# 用来处理已排序的序列，用来维持已排序的序列，升序(二分查找)
+inter_list = []
+bisect.insort(inter_list,3)
+bisect.insort(inter_list,2)
+bisect.insort(inter_list,5)
+bisect.insort(inter_list,1)
+bisect.insort(inter_list,6)
+# [1,2,3,4,5]
+# 查询位置
+# bisect.bisect = bisect.bisect_right()
+
+
+# 列表的使用情况
+# array,deque的使用
+# 数组
+# array 和 list 的一个重要的区别， array只能存放指定的数据类型
+import array
+my_array = array.array("i")
+
+# 列表推导式、生成器表达式、字典推导式
+# 列表推导式 []
+# 生成器表达式 ()
+# 字典推导式 {} {value:key for key, value in my_dict.items()}
+# 集合推导式 - set - my_set = {key for key, value in my_dict.items()} / set(my_dict.keys())
+
+
+# dict 和 abc的关系
+
 
 if __name__ == '__main__':
     # new_day = Date(2018, 12, 31)
