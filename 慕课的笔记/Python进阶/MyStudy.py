@@ -247,7 +247,7 @@ def file_open(file_name):
 with file_open('bobby.txt') as f_opened:
     print ("file processing")
 
-
+# ----------------------------------------------------------------------------------------------------------------------
 # 序列类
 # +  +=  extent
 # + 两个list相加，链接成一个list，两边类型需要相同
@@ -313,9 +313,42 @@ my_array = array.array("i")
 # 字典推导式 {} {value:key for key, value in my_dict.items()}
 # 集合推导式 - set - my_set = {key for key, value in my_dict.items()} / set(my_dict.keys())
 
-
+# ----------------------------------------------------------------------------------------------------------------------
 # dict 和 abc的关系
+from collections.abc import Mapping
+# dict 属于mapping类型
+a = {}
+print (isinstance(a ,MutableMapping))
 
+# 深拷贝
+import copy
+# copy.deepcopy()
+new_list = ['shine', 'shine1']
+new_dict = dict.fromkeys(new_list, "")   # 给list转化为dict，并设置默认值
+value  = new_dict.get("shine2", {})      # 获取new_dict['shine2']如果不存在的，则返回{}
+value1 = new_dict.setdefault('shine2','test')   #同上，但是查询不到，则可以会自动添加进去
+
+# set 和 fronzenset (不可以变集合) 无序的集合，消除重复
+# fronzenset 可以作为dict的key
+
+# dict 查找的性能，远远大于list。
+# 在list中，随着list的数据的增大，查找的时间会增大。
+# 在dict中，查找元素。不会随着dict的增大而增大。
+# 1. dict的key或者set的值，都必须是可以hash的，不可变对象都是可以hash的。
+# 2. dict的内存花销大，但是查询速度快。
+# 3. dict的存储顺序是添加顺序有关。
+# 4. 添加数据有可能已有数据的顺序 (hash的时候有可能插入前面的空白)。
+
+#-----------------------------------------------------------------------------------------------------------------------
+# 对象引用，可变性和垃圾回收
+# python和java中的变量本质不一样，python的变量实质上是一个指针，int，str。
+
+# python 中垃圾回收的算法是采用 应用计数的，del - number减一
+a = 1 # number = 1
+b = a # number +=1
+# number - 到0的时候，就会回收
+
+#
 
 if __name__ == '__main__':
     # new_day = Date(2018, 12, 31)
