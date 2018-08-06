@@ -151,6 +151,98 @@ if __name__ == '__main__':
     print ('1')
 
 # ----------------------------------------------------------------------------------------------------------------------
+from queue import Queue
+from threading import Thread,Event
+from io import StringIO
+from bs4 import BeautifulSoup
+import requests,openpyxl
+
+class IOThread(Thread):
+    def __init__(self,i,Queue):
+        Thread.__init__(self)
+        self.sid = i
+        self.url = 'https://www.52pojie.cn/forum-16-{0}.html'.format(i)
+        self.queue = Queue
+
+    def download(self,url):
+        print ('%s：已完成' % str(self.sid))
+        response = requests.get(url,timeout=3)
+        if response.ok:
+            return StringIO(response.text)
+
+    def run(self):
+        data = self.download(self.url)
+        self.queue.put((self.sid,data))
+
+class CpuThread(Thread):
+    def __init__(self,queue,cEvent,tEvent):
+        Thread.__init__(self)
+        self.queue = queue
+        self.cEvent = cEvent
+        self.tEvent = tEvent
+
+    def test(self,sid,data):
+        html = BeautifulSoup(data.read(),'lxml')
+        url = html.select('th.new > a.s.xst')
+        print (url)
+
+    def run(self):
+        count = 0
+        while True:
+            sid,data = self.queue.get()
+            print (sid,data)
+            if sid == '-1':
+                self.cEvent.set()
+                self.tEvent.wait()
+                break
+            if data:
+                self.test(sid,data)
+                count +=1
+                if count == 5:
+                    self.cEvent.set()
+                    self.tEvent.wait()
+                    self.tEvent.clear()
+                    count = 0
+
+class zipThread(Thread):
+    def __init__(self,cEvent,tEvent):
+        Thread.__init__(self)
+        self.count = 0
+        self.cEvent = cEvent
+        self.tEvent = tEvent
+        self.setDaemon(True)
+
+    def zip_print(self):
+        print('打包完成')
+
+    def run(self):
+        while True:
+            self.cEvent.wait()
+            self.zip_print()
+            self.cEvent.clear()
+
+            self.tEvent.set()
+
+if __name__ == '__main__':
+    q = Queue()
+    dThreads = [IOThread(i,q) for i in range(1,18)]
+    cEvent = Event()
+    tEvent = Event()
+    cThreads = CpuThread(q,cEvent,tEvent)
+    tThreads = zipThread(cEvent,tEvent)
+    tThreads.start()
+
+    for t in dThreads:
+        t.start()
+    cThreads.start()
+
+    for t in dThreads:
+        t.join()
+
+    q.put(('-1',None))
+
+
+# ----------------------------------------------------------------------------------------------------------------------
 # 线程同步
 
 # 全局变量在赋值的时候，容易出错，运算完成之后，复制别的线程先赋值
