@@ -120,7 +120,7 @@ class WeatherIterable(Iterable):
     def __iter__(self):
         return WeatherIterator(self.cities)
 
-for i in WeatherIterable(['北京','上海','广州','深圳']):
+for i in WeatherIterable(['北京', '上海', '广州', '深圳']):
     print (i)
 
 
@@ -208,15 +208,15 @@ def f(a,b,c=1): pass
 sig = signature(f)
 # print (sig)
 # print (sig.parameters)
-# a = sig.parameters['c'] #转化成字典
+# a = sig.parameters['c'] # 转化成字典
 # print (dir(a))
-# print (a.name)          #a的名字
-# print (a.kind)          #参数属于哪种类型
-# print (a.default)       #a的默认参数值
+# print (a.name)          # a的名字
+# print (a.kind)          # 参数属于哪种类型
+# print (a.default)       # a的默认参数值
 
-#建立一个字典
+# 建立一个字典
 #bin 和 bind_partial的区别，前者默认参数一定要传齐，后者不用
-# bargs = sig.bind_partial(str,int,int)       #传的参数是必须传递齐，不然会报错
+# bargs = sig.bind_partial(str,int,int)       # 传的参数是必须传递齐，不然会报错
 
 
 

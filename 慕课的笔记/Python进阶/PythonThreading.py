@@ -13,7 +13,7 @@ import dis
 def add(a):
     a = a + 1
     return a
-print (dis.dis(add))
+print(dis.dis(add))
 
 
 # ---------------------------------------------------------------------------------------------------------------------
@@ -174,6 +174,7 @@ class IOThread(Thread):
         data = self.download(self.url)
         self.queue.put((self.sid,data))
 
+
 class CpuThread(Thread):
     def __init__(self,queue,cEvent,tEvent):
         Thread.__init__(self)
@@ -204,6 +205,7 @@ class CpuThread(Thread):
                     self.tEvent.clear()
                     count = 0
 
+
 class zipThread(Thread):
     def __init__(self,cEvent,tEvent):
         Thread.__init__(self)
@@ -222,6 +224,7 @@ class zipThread(Thread):
             self.cEvent.clear()
 
             self.tEvent.set()
+
 
 if __name__ == '__main__':
     q = Queue()
@@ -330,6 +333,7 @@ class TianMao(threading.Thread):
             print(" {} : 我们来对古诗吧。".format(self.name))
             self.cond.notify()
             self.cond.wait()
+
 
 if __name__ == '__main__':
     cond = Condition()
