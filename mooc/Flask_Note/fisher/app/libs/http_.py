@@ -6,7 +6,8 @@ import requests
 class HTTP():
 
     @ staticmethod
-    def get(url, params=NameError, return_json=True, **kwargs):
+    def get(url, params=None, return_json=True, **kwargs):
+        print (url)
         res = requests.get(url, params, **kwargs)
 
         # if res.status_code == 200:

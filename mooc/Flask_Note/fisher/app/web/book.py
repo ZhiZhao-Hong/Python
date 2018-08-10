@@ -1,8 +1,7 @@
 # -*- coding:utf-8 -*-
-import json
 from flask import jsonify, request
-from helper import is_isbn_or_key
-from yushu_book import YuShuBook
+from app.libs.helper import is_isbn_or_key
+from app.spider.yushu_book import YuShuBook
 from app.web import web
 from app.forms.book import SearchForm
 
@@ -16,7 +15,7 @@ http://locahlost:81/book/search/9787501524044/1
 http://locahlost:81/book/search?q=9787501524044&page=1
 http://locahlost:81/book/search?q=9787501524044
 
-http://t.yushu.im/v2/book/search?q=9787501524044&start=1&count=15
+http://t.yushu.im/v2/book/search?q=9787501524044
 '''
 
 
@@ -68,12 +67,12 @@ def search_1():
     if form.validate():
         q = form.q.data.strip()
         page = form.page.data
-
+        print (q)
         isbn_or_key = is_isbn_or_key(q)
         if isbn_or_key == 'isbn':
             result = YuShuBook.search_by_isbn(q)
         else:
-            result = YuShuBook.search_by_keyword(q)
+            result = YuShuBook.search_by_keyword(q, page)
         return jsonify(result)
     else:
-        return jsonify({'msg':'参数校验失败！'})
+        return jsonify(form.errors)
