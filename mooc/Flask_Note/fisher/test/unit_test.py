@@ -28,3 +28,17 @@ ctx.pop()   # 出栈
     2. 如果不在栈顶中，则会先把 App context -> app 对象推入 (push) 到 (通过_app_ctx_stack) 栈中
     3. 这个时候，外部直接使用current_app(代理app)的时候，栈中已经存在app。所以实际使用的时候，app是不用入栈的。
 '''
+
+# -------------------------------------------
+# 离线应用、单元测试的时候，需要这样做
+# 将上面的修改一下
+# with的写法
+# -
+# with app.app_context():
+#     a = current_app
+#     d = current_app.config['DEBUG']
+
+# __enter__ : return True/False : with外部是否会抛出异常, 默认返回False
+# __exit__(self, exc_type, exc_val, exc_tb)-(这里的参数是处理异常的)
+# 就可以实现上下文管理器
+# with a() as fp:  fp的值是__enter__的返回值
