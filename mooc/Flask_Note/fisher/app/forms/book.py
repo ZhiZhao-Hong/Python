@@ -2,6 +2,7 @@
 from wtforms import Form, StringField, IntegerField
 from wtforms.validators import Length, NumberRange, DataRequired
 
+
 class SearchForm(Form):
 
     q = StringField(validators=[

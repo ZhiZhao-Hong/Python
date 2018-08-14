@@ -2,4 +2,4 @@
 # 数据库等比较机密，写到这里。 本文件不上传到git
 DEBUG = True
 
-SQLALCHEMY_DATABASE_URI = ''
+SQLALCHEMY_DATABASE_URI = 'mysql+cymysql://root:heygears@localhost:3306/fisher'

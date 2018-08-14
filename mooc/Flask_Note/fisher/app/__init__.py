@@ -10,8 +10,8 @@ def create_app():
     register_blueprint(app)
 
     #
-    db.init_app(app)    # 默认去config里面加载对应的mysql的链接，可以看源代码
-    db.create_all(app=app)
+    # db.init_app(app)    # 默认去config里面加载对应的mysql的链接，可以看源代码
+    # db.create_all(app=app)
     return app
 
 

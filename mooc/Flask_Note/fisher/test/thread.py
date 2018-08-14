@@ -43,6 +43,7 @@ print('in main thread b is :' + my_obj.b)
 
 # 栈的三个操作
 # push, pop, top
+# 其实很多数据结构就是限制了某些能力
 from werkzeug.local import LocalStack
 s = LocalStack()
 s.push(1)
