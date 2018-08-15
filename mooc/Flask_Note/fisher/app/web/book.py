@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
-from flask import jsonify, request
+import json
+from flask import jsonify, request, render_template, flash
 from app.libs.helper import is_isbn_or_key
 from app.spider.yushu_book import YuShuBook
 from app.web import web
@@ -65,23 +66,44 @@ def search():
     # ---------------------------------------
     form = SearchForm(request.args)
     book = BookCollection()
+
     # 验证一下数据是否符合我们的设定的验证层
     if form.validate():
+
         q = form.q.data.strip()
         page = form.page.data
+
         isbn_or_key = is_isbn_or_key(q)
         yushu_book = YuShuBook()
+
         if isbn_or_key == 'isbn':
             yushu_book.search_by_isbn(q)
             # result = YuShuBook.search_by_isbn(q)
             # result = BookViewModel.package_single(result, q)
         else:
-            yushu_book.search_by_keyword(q)
+            yushu_book.search_by_keyword(q, page )
             # result = YuShuBook.search_by_keyword(q, page)
-            # result = BookViewModel.package_collection(result, q)
+            # result = BookViewMode l.package_collection(result, q)
         # return jsonify(result)
         book.fill(yushu_book, q)
-        return jsonify(book)
+        # 序列化不可以序列化对象，如果book.__dict__里面有 self.a = []的话，list也是对象，实例化不了
+        return json.dumps(book, default=lambda o:o.__dict__)
     else:
         # return jsonify(form.errors)
         return jsonify
+
+
+@web.route('/test')
+def test():
+    r = {
+        "name": "",
+        "age": 20
+    }
+
+    r1 = {
+        "name": "Join",
+        "age": 18
+    }
+    # 消息闪现
+    flash('hello shine!')
+    return render_template('test.html', data=r, data1=r1)
