@@ -39,6 +39,6 @@ class Vector:
     @classmethod
     def from_bytes(cls, octets):
         type_code = chr(octets[0])
-        menv = memoryview(octets[1:]).cast(type_code)
-        return cls(menv)
+        men_v = memoryview(octets[1:]).cast(type_code)
+        return cls(men_v)
 
