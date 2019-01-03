@@ -40,7 +40,7 @@ def download_many(cc_list):
     return len(cc_list)
 
 
-def main():
+def main(download_many):
     t0 = time.time()
     count = download_many(POP20_CC)
     elapsed = time.time() - t0
@@ -49,4 +49,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main(download_many)

@@ -10,23 +10,32 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/fluent_python$spinner_asyncio__1_.coverage" NAME="spinner_asyncio (1) Coverage Results" MODIFIED="1546414755909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_asyncio_test" />
-    <SUITE FILE_PATH="coverage/fluent_python$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1539918817669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fluent_python$___asyncio.coverage" NAME="___asyncio Coverage Results" MODIFIED="1546483562639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScript" />
+    <SUITE FILE_PATH="coverage/fluent_python$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1546485475107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fluent_python$___aiohttp.coverage" NAME="___aiohttp Coverage Results" MODIFIED="1546509268444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_asyncio_test" />
+    <SUITE FILE_PATH="coverage/fluent_python$_coroutine.coverage" NAME="_coroutine Coverage Results" MODIFIED="1546499665022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_coroutine" />
+    <SUITE FILE_PATH="coverage/fluent_python$index.coverage" NAME="index Coverage Results" MODIFIED="1539918189142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fluent_python$simple_coroutine.coverage" NAME="simple_coroutine Coverage Results" MODIFIED="1546496538474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_coroutine" />
     <SUITE FILE_PATH="coverage/fluent_python$spinner_asyncio.coverage" NAME="spinner_asyncio Coverage Results" MODIFIED="1546414431360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_asyncio" />
     <SUITE FILE_PATH="coverage/fluent_python$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1546419118819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flags" />
+    <SUITE FILE_PATH="coverage/fluent_python$pytest_in____futures_py.coverage" NAME="pytest in ___futures.py Coverage Results" MODIFIED="1546481165576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScript" />
     <SUITE FILE_PATH="coverage/fluent_python$word.coverage" NAME="word Coverage Results" MODIFIED="1541060439742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fluent_python$demo_executor_map.coverage" NAME="demo_executor_map Coverage Results" MODIFIED="1546407790944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flags" />
     <SUITE FILE_PATH="coverage/fluent_python$flags_threadpoll.coverage" NAME="flags_threadpoll Coverage Results" MODIFIED="1546400394013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flags" />
+    <SUITE FILE_PATH="coverage/fluent_python$pytest_in___init___py.coverage" NAME="pytest in __init__.py Coverage Results" MODIFIED="1546485423742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fluent_python$flags.coverage" NAME="flags Coverage Results" MODIFIED="1546394484482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flags" />
-    <SUITE FILE_PATH="coverage/fluent_python$spinner_thread.coverage" NAME="spinner_thread Coverage Results" MODIFIED="1546412811211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_asyncio" />
-    <SUITE FILE_PATH="coverage/fluent_python$index.coverage" NAME="index Coverage Results" MODIFIED="1539918189142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fluent_python$spinner_thread.coverage" NAME="spinner_thread Coverage Results" MODIFIED="1546483987668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_asyncio_test" />
+    <SUITE FILE_PATH="coverage/fluent_python$___futures.coverage" NAME="___futures Coverage Results" MODIFIED="1546482030396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScript" />
+    <SUITE FILE_PATH="coverage/fluent_python$_yield_from.coverage" NAME="_yield_from Coverage Results" MODIFIED="1546497353384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_coroutine" />
+    <SUITE FILE_PATH="coverage/fluent_python$flags_asyncio.coverage" NAME="flags_asyncio Coverage Results" MODIFIED="1546500205249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flags" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flags/flags_threadpoll.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="420">
+              <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
               <folding>
                 <element signature="e#114#144#0" expanded="true" />
               </folding>
@@ -37,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_asyncio_test/spinner_thread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="777">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="e#113#129#0" expanded="true" />
               </folding>
@@ -47,18 +56,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flags/__init__.py">
+        <entry file="file://$PROJECT_DIR$/flags/flags_asyncio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="464">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding>
+                <element signature="e#114#128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flags/demo_executor_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
+            <state relative-caret-position="726">
               <caret line="34" column="38" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="38" />
               <folding>
                 <element signature="e#113#145#0" expanded="true" />
@@ -68,10 +80,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flags/flags.py">
+        <entry file="file://$PROJECT_DIR$/flags/flags2_asyncio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="552">
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="42" />
+              <folding>
+                <element signature="e#113#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_asyncio_test/___aiohttp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="e#113#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python/Python37/Lib/site-packages/aiohttp/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="882" selection-start-line="882" selection-end-line="882" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_coroutine/_coroutine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_asyncio_test/spinner_asyncio.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+              <folding>
+                <element signature="e#113#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flags/_flags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="44" column="25" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="25" />
               <folding>
                 <element signature="e#113#122#0" expanded="true" />
               </folding>
@@ -94,11 +160,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/index.py" />
         <option value="$PROJECT_DIR$/word.py" />
         <option value="$PROJECT_DIR$/_test.py" />
-        <option value="$PROJECT_DIR$/flags/flags.py" />
         <option value="$PROJECT_DIR$/flags/downloads/flags_threadpoll.py" />
         <option value="$PROJECT_DIR$/flags/flags_threadpoll.py" />
         <option value="$PROJECT_DIR$/flags/demo_executor_map.py" />
@@ -106,6 +170,19 @@
         <option value="$PROJECT_DIR$/_asyncio/spinner_asyncio.py" />
         <option value="$PROJECT_DIR$/_asyncio_test/spinner_asyncio.py" />
         <option value="$PROJECT_DIR$/flags/__init__.py" />
+        <option value="$PROJECT_DIR$/MyScript/___futures.py" />
+        <option value="$PROJECT_DIR$/MyScript/__init__.py" />
+        <option value="$PROJECT_DIR$/MyScript/___.py" />
+        <option value="$PROJECT_DIR$/MyScript/___asyncio.py" />
+        <option value="$PROJECT_DIR$/_asyncio_test/spinner_thread.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/flags/flags.py" />
+        <option value="$PROJECT_DIR$/_coroutine/simple_coroutine.py" />
+        <option value="$PROJECT_DIR$/_coroutine/_yield_from.py" />
+        <option value="$PROJECT_DIR$/_coroutine/_coroutine.py" />
+        <option value="$PROJECT_DIR$/flags/flags_asyncio.py" />
+        <option value="$PROJECT_DIR$/flags/flags2_asyncio.py" />
+        <option value="$PROJECT_DIR$/_asyncio_test/___aiohttp.py" />
       </list>
     </option>
   </component>
@@ -121,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,24 +209,24 @@
             <path>
               <item name="fluent_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="fluent_python" type="462c0819:PsiDirectoryNode" />
-              <item name="flags" type="462c0819:PsiDirectoryNode" />
+              <item name="_asyncio_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/HeyGears_Code/ULTRA_HUB_Service_APITest/UltraCraft_Hub_ApiTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHub\Python\fluent_python\_coroutine" />
       <recent name="F:\GitHub\Python\fluent_python\flags" />
     </key>
   </component>
@@ -164,52 +242,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__init__ (1)">
-    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="fluent_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flags" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flags/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo_executor_map" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="fluent_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flags" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flags/demo_executor_map.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="spinner_asyncio (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.___aiohttp">
+    <configuration name="___aiohttp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fluent_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +256,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_asyncio_test/spinner_asyncio.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_asyncio_test/___aiohttp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,7 +265,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spinner_asyncio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_coroutine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fluent_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,12 +273,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_asyncio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_coroutine" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_asyncio/spinner_asyncio.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_coroutine/_coroutine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +287,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spinner_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_yield_from" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fluent_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,12 +295,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_asyncio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_coroutine" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_asyncio/spinner_thread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_coroutine/_yield_from.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flags_asyncio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fluent_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flags" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flags/flags_asyncio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simple_coroutine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fluent_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_coroutine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_coroutine/simple_coroutine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,19 +354,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.__init__ (1)" />
-      <item itemvalue="Python.demo_executor_map" />
-      <item itemvalue="Python.spinner_thread" />
-      <item itemvalue="Python.spinner_asyncio" />
-      <item itemvalue="Python.spinner_asyncio (1)" />
+      <item itemvalue="Python.flags_asyncio" />
+      <item itemvalue="Python.simple_coroutine" />
+      <item itemvalue="Python._yield_from" />
+      <item itemvalue="Python._coroutine" />
+      <item itemvalue="Python.___aiohttp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__init__ (1)" />
-        <item itemvalue="Python.spinner_asyncio (1)" />
-        <item itemvalue="Python.spinner_asyncio" />
-        <item itemvalue="Python.spinner_thread" />
-        <item itemvalue="Python.demo_executor_map" />
+        <item itemvalue="Python.___aiohttp" />
+        <item itemvalue="Python.flags_asyncio" />
+        <item itemvalue="Python._coroutine" />
+        <item itemvalue="Python._yield_from" />
+        <item itemvalue="Python.simple_coroutine" />
       </list>
     </recent_temporary>
   </component>
@@ -303,23 +381,31 @@
       <option name="presentableId" value="Default" />
       <updated>1539051621894</updated>
       <workItem from="1546392559737" duration="9092000" />
-      <workItem from="1546407674482" duration="7989000" />
+      <workItem from="1546407674482" duration="9049000" />
+      <workItem from="1546477626877" duration="23618000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in____futures_py - 2019.01.03 at 10h 06m 07s.xml">
+      <configuration name="pytest in ___futures.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in___init___py - 2019.01.03 at 11h 17m 04s.xml">
+      <configuration name="pytest in __init__.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17081000" />
+    <option name="totallyTimeSpent" value="41759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16272825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16487648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37904125" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44593087" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_test.py" />
     <entry file="file://D:/Python/Python37/Lib/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -381,9 +460,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_deque.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_coroutine.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_class.py">
@@ -422,20 +498,106 @@
     <entry file="file://$PROJECT_DIR$/_decorator.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyScript/___futures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#113#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScript/___asyncio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScript/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python37/Lib/asyncio/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="553" column="22" selection-start-line="553" selection-start-column="14" selection-end-line="553" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_coroutine/simple_coroutine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_coroutine/_yield_from.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_asyncio_test/spinner_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <element signature="e#113#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_asyncio_test/spinner_asyncio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="638">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="e#113#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flags/flags.py">
+    <entry file="file://$PROJECT_DIR$/_coroutine/_coroutine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="581">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flags/demo_executor_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="e#113#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flags/_flags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="25" />
           <folding>
             <element signature="e#113#122#0" expanded="true" />
           </folding>
@@ -444,37 +606,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flags/flags_threadpoll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="420">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
           <folding>
             <element signature="e#114#144#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flags/__init__.py">
+    <entry file="file://$PROJECT_DIR$/flags/flags_asyncio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_asyncio_test/spinner_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="464">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
-            <element signature="e#113#129#0" expanded="true" />
+            <element signature="e#114#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flags/demo_executor_map.py">
+    <entry file="file://$PROJECT_DIR$/flags/flags2_asyncio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="552">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="42" />
           <folding>
-            <element signature="e#113#145#0" expanded="true" />
+            <element signature="e#113#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python37/Lib/site-packages/aiohttp/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="882" selection-start-line="882" selection-end-line="882" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_asyncio_test/___aiohttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#113#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
