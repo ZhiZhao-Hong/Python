@@ -6,8 +6,9 @@
 import asyncio
 import collections
 import aiohttp
-from aiohttp import web
 import tqdm
+from aiohttp import web
+from flags.flags2_common import main, HTTPStatus, Result, save_flag
 
 
 # 默认设为较小的值，防止远程网站出错
@@ -25,16 +26,15 @@ class FetchError(Exception):
 @asyncio.coroutine
 def get_flag(base_url, cc: str):
     url = '{}/{cc}/{cc}.gif'.format(base_url, cc=cc.lower())
-    resp = yield from aiohttp.ClientSession.get(url)
+    resp = yield from aiohttp.ClientSession().get(url)
     if resp.status == 200:
         image = yield from resp.read()
     elif resp.status == 404:
         raise web.HTTPNotFound()
     else:
-        raise aiohttp.ClientHttpProxyError(
+        raise aiohttp.HttpProcessingError(
             code=resp.status, message=resp.reason, headers=resp.headers
         )
-
 
 @ asyncio.coroutine
 def download_one(cc, base_url, semaphore, verbose):
@@ -42,4 +42,14 @@ def download_one(cc, base_url, semaphore, verbose):
         with (yield from semaphore):
             image = yield from get_flag(base_url, cc)
     except web.HTTPNotFound:
-        status =
+        status = HTTPStatus.not_found
+        msg = 'not found'
+    except Exception as exc:
+        raise FetchError(cc) from exc
+    else:
+        save_flag(image, cc.lower()+'.gif')
+        status = HTTPStatus.ok
+        msg = 'OK'
+        if verbose and msg:
+            print(cc, msg)
+    return Result(status, cc)
